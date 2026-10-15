@@ -1,0 +1,13 @@
+$("h1").css("color","white");
+
+$(document).keypress( function(event){
+    $("h1").text(event.key);
+});
+
+$("button").click(function(){
+    $("h1").css("color","purple");
+});
+
+$(document).on("click", function(){
+    $("h1").css("color","black");
+});
